@@ -6,7 +6,7 @@ void convCase(char* ptr)
     {
         const int diff ='a'-'A'; //아스키코드에서 소문자와 대문자의 차 32..
         if (ptr[i]>='A'&& ptr[i]<='Z')
-            ptr[i]=ptr[i]+diff; //배열에 저장된 해당 인덱스 값의 수치를 바로 변경하면 되는거;;
+            ptr[i]=ptr[i]+diff; //배열에 저장된 해당 인덱스 값의 수치를 바로 변경하면 되는거였음;;
 
         else if(ptr[i]>='a'&& ptr[i]<='z')
             ptr[i]=ptr[i]-diff;
