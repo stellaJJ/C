@@ -31,7 +31,7 @@ int main (void)
         printf("enter 5 real numbers: ");
         scanf("%d", &arr[i]);
     }
-    double result=cal_std_dev(&arr);
+    double result=cal_std_dev(arr);
     printf("standard deviation=%.3f \n", result);
 
     return 0;
